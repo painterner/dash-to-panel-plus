@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.dash-to-panel-plus" path="/org/gnome/shell/extensions/dash-to-panel-plus/">
+    <key name="project-badges" type="b"><default>true</default><summary>Show window project badges</summary></key>
+    <key name="badge-length" type="i"><range min="2" max="12"/><default>4</default><summary>Visible badge character count</summary></key>
+    <key name="window-rules" type="s"><default>'[]'</default><summary>Window title rules</summary></key>
+    <key name="workspace-favorites" type="b"><default>true</default><summary>Separate favorites by workspace number</summary></key>
+    <key name="workspace-order" type="b"><default>true</default><summary>Separate application order by workspace number</summary></key>
+    <key name="workspace-profiles" type="s"><default>'{}'</default><summary>Workspace favorites and running application order</summary></key>
+    <key name="active-workspace" type="i"><default>0</default><summary>Active workspace for the preferences window</summary></key>
+    <key name="window-menu" type="b"><default>true</default><summary>Additional window menu actions</summary></key>
+    <key name="script-actions" type="s"><default>'[]'</default><summary>User configured executable argument arrays</summary></key>
+    <key name="app-aliases" type="b"><default>true</default><summary>Match window aliases to desktop applications</summary></key>
+    <key name="alias-rules" type="s"><default>'[{"alias":"x-terminal-emulator","desktopId":"terminator.desktop"}]'</default><summary>Application alias rules</summary></key>
+  </schema>
+</schemalist>

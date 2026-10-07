@@ -1,0 +1,10 @@
+const {GLib} = imports.gi;
+GLib.set_prgname(ARGV[0] || 'dtpp-alias-test');
+imports.gi.versions.Gtk = '3.0';
+const {Gtk} = imports.gi;
+Gtk.init(null);
+const window = new Gtk.Window({title:'index.ts — Alpha — Visual Studio Code', default_width:450, default_height:260});
+window.add(new Gtk.Label({label:'Dash to Panel Plus integration test'}));
+window.connect('destroy', () => Gtk.main_quit());
+window.show_all();
+Gtk.main();

@@ -1,0 +1,8 @@
+{
+  "uuid": "dash-to-panel-plus@ka.local",
+  "name": "Dash to Panel Plus",
+  "description": "工作区收藏与排序、窗口项目标记、自定义窗口菜单和应用别名。需要 Dash to Panel v56。",
+  "shell-version": ["42"],
+  "version": 1,
+  "settings-schema": "org.gnome.shell.extensions.dash-to-panel-plus"
+}
